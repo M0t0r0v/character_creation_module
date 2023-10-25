@@ -64,7 +64,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
-    """Выбор класса"""
+    """Выбор класса."""
     approve_choice: str = ''
     char_class: str = ''
     while approve_choice != 'y':
@@ -87,6 +87,7 @@ def choice_char_class() -> str:
 
 
 def main():
+    """Функция запуска игры."""
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: str = input('...назови себя: ')
